@@ -1,0 +1,378 @@
+.scroll{
+    width: 68px;
+    height: 68px;
+    background: url(../img/scroll@2x.png) no-repeat center / cover;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+}
+
+#header{
+    position: fixed; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    z-index: 2000;
+    transition: all 0.3s;
+}
+
+.fp-table{
+    justify-content: flex-start;
+}
+
+#header .inner{
+    width: 1024px;
+    height: 108px;
+    box-sizing: border-box;
+    padding: 60px 173px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .title{
+    text-indent: -9999px;
+    width: 142px;
+    height: 32px;
+    background: url(../img/logo@2x.png) no-repeat top left /cover;
+}
+
+.gnba .app-down{
+    width: 140px;
+    height: 48px;
+    margin-right: 26px;
+    background: url(../img/btn-download-white@3x.png) no-repeat center / contain;
+    text-indent: -9999px;
+    transition: all 0.3s;
+}
+
+.gnba{
+    display: flex;
+}
+#gnb{
+    display: flex;
+    align-items: center;
+}
+
+#gnb li{
+    margin-left: 5px;
+    width: 50px;
+    height: 34px;
+    text-indent: -9999px;
+}
+
+#gnb li:nth-child(1){background: url(../img/iconFacebook@2x.png) no-repeat center / contain; margin: 0;}
+#gnb li:nth-child(2){background: url(../img/iconInstagram@2x.png) no-repeat center / contain;}
+#gnb li:nth-child(3){background: url(../img/iconBlog@2x.png) no-repeat center / contain;}
+#gnb li:nth-child(4){background: url(../img/iconYoutube@2x.png) no-repeat center / contain;}
+
+
+.main{
+    background: url(../img/main_04@2x.jpg) no-repeat center/cover;
+}
+
+
+.main .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 165px 50px 0;
+    box-sizing: border-box;
+}
+
+.main .rider{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 173px;
+    height: 226px;
+    background: url(../img/rider-button-pc@2x.png) no-repeat center / cover;
+    border: none;
+}
+
+.main img{width: 462px; height: 316.14px;}
+
+.main .down-box{
+    margin-top: 40px;
+    width: 924px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.down-box p{
+    margin-bottom: 14px;
+    text-align: start;
+}
+
+.app-store-btn{
+    background: url(../img/img-appstore-default@2x.png) no-repeat center/contain;
+    background-origin: content-box;
+}
+
+.google-play-btn{
+    background: url(../img/img-googleplay-default@2x.png) no-repeat center/contain;
+    background-origin: content-box;
+}
+
+.app-store-btn,.google-play-btn{
+    width: 200px;
+    height: 70px;
+    margin-left: 12px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+.QR-btn{
+    width: 125px;
+    height: 125px;
+    background: url(../img/qrcode@3x.png) no-repeat center / contain;
+    border-color: transparent;
+}
+
+#navigation{
+    position: fixed;
+    right: 11%;
+    top: 50%;
+    transform: translateY(-10%);
+    z-index: 2000;
+}
+
+#nav{
+    transition: all 0.3s;
+}
+
+#nav li a{
+    text-indent: -9999px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/dotScroll02@2x.png) no-repeat center/cover;
+    margin-bottom: 10px;
+}
+
+#nav li.active a{
+    background: url(../img/dotSelect@2x.png) no-repeat center/cover;
+}
+
+.s1,.s2,.s3,.s4,.s5,.s6{ background-color: #2ac1bc; height: 100%; width: 100%;}
+
+.s7{
+    background-color: #fff;
+}
+
+.section .inner{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 165px 50px 0;
+    box-sizing: border-box;
+}
+
+.txt-box h1 img{
+    width: 462px;
+    height: 238px;
+}
+
+.section p{
+    color: #fff;
+}
+
+.txt-box p:nth-of-type(1){
+    margin-top: 15px;
+    line-height: 20px;
+}
+.txt-box p:nth-of-type(2){
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.614);
+    font-size: 14px;
+}
+
+.txt-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.road{
+    position: absolute;
+    bottom: 11%;
+    right: 0%;
+    width: 700px;
+    height: 700px;
+}
+
+.road img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.bike{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: 16%;
+    right: 5%;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.bike.on{
+    opacity: 1;
+    bottom: 8%;
+    right: 0%;
+}
+
+.bike img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.people{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: -40%;
+    right: 22%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.people.on{
+    opacity: 1;
+    bottom: 0;
+}
+
+.people img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.gift-card{
+    width: 233px;
+    height: 39px;
+    margin-top: 25px;
+    background: url(../img/btn_b2b@2x.png) no-repeat center/cover;
+    border: none;
+}
+
+.present{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: -40%;
+    right: 20%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.present.on{
+    opacity: 1;
+    bottom: 0;
+}
+
+.present img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.shoppinglive{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: -40%;
+    right: 20%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.shoppinglive.on{
+    opacity: 1;
+    bottom: 0;
+}
+
+.shoppinglive img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.bmart{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: 15%;
+    right: 0;
+    opacity: 0.3;
+    transition: all 0.6s;
+}
+
+.bmart.on{
+    opacity: 1;
+    right: 22%;
+}
+
+.bmart img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.flag{
+    position: absolute;
+    width: 635px;
+    height: 635px;
+    z-index: 2;
+    bottom: -45%;
+    right: 20%;
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.flag.on{
+    opacity: 1;
+    bottom: 0;
+}
+
+.flag img{
+    object-fit: contain;
+    display: flex;
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+.top-box{
+    display: flex;
+}
+
+.s7 .info-box{
+    color: #000;
+}
